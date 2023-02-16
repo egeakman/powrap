@@ -128,7 +128,7 @@ def parse_args():
         "Return code 1 means some files would be reformatted.",
     )
     parser.add_argument(
-        "--version", action="version", version="%(prog)s " + __version__
+        "--version", action="version", version=f"%(prog)s {__version__}"
     )
     parser.add_argument(
         "--no-wrap",
